@@ -7,7 +7,7 @@ public class TeleportSwitch : MonoBehaviour
     public Transform rig;
     public Vector3 insidePosition = new Vector3(0f, 0f, 5f);
     public Vector3 outsidePosition = new Vector3(-40f, 0f, -15f);
-    public Vector3 insideRotation = Vector3.zero;
+    public Vector3 insideRotation = new Vector3(0f, 180f, 0f);
     public Vector3 outsideRotation = new Vector3(0f, 75f, 0f);
 
 
