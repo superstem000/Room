@@ -19,9 +19,18 @@ public class TeleportSwitch : MonoBehaviour
         action.action.performed += (ctx) =>
         {
             outside = !outside;
-            rig.position = outside ? outsidePosition : insidePosition;
 
-            rig.rotation = Quaternion.Euler(outside ? outsideRotation : insideRotation);
+            if (outside)
+            {
+                rig.position = outsidePosition;
+                rig.rotation = Quaternion.Euler(outsideRotation);
+            }
+            else
+            {
+                rig.position = insidePosition;
+                rig.rotation = Quaternion.Euler(insideRotation);
+                Debug.Log("Returning inside, set rotation to " + insideRotation);
+            }
         };
     }
 }
