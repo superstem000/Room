@@ -81,6 +81,10 @@ PrefabInstance:
       value: BulletDeath
       objectReference: {fileID: 0}
     - target: {fileID: 6263225255793911707, guid: a11437a04892ab640ba2c4010c2a100c, type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263225255793911707, guid: a11437a04892ab640ba2c4010c2a100c, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: 3da8e4a4bc8e6a94fb9c62ea19204b1d, type: 3}

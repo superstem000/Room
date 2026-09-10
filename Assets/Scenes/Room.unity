@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   action: {fileID: 320110725762051136, guid: b1b7d471078ecec49950715b7bac5608, type: 3}
-  bulletPrefab: {fileID: 6589737415204118866, guid: e27bce2c533aeaa45903b1fb1a93a727, type: 3}
+  bulletPrefab: {fileID: 2519690450845743543, guid: e27bce2c533aeaa45903b1fb1a93a727, type: 3}
   controller: {fileID: 1315774293}
   spawnOffset: 0.2
   speed: 8
@@ -372,27 +372,26 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'CONTROLS
 
-    
+
 
     A: Quit
 
-    
+
 
     B: Change Light Color
 
-    
 
-    X:
-    Teleport
 
-    
+    X: Teleport
 
-    Right Trigger: Spawn Meteor
 
-    
 
-    Left Trigger: Shoot
-    Comet'
+    Right
+    Trigger: Spawn Meteor
+
+
+
+    Left Trigger: Shoot Comet'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -572,7 +571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 5.5}
+  m_AnchoredPosition: {x: 0, y: 7.5}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &753078543
